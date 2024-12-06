@@ -5,10 +5,10 @@ document.getElementById('btn-login').addEventListener('click', function(event)
     const pin = document.getElementById('pin-number').value;
     if(phoneNumber === '01859282108' && pin === '1234')
     {
-        window.location.href = '/home.html'
+        window.location.assign("http://127.0.0.1:5500/home.html")
     }
     else
     {
-        alert('wrong number pr pin')
+        alert('wrong number or pin')
     }
 })

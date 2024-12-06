@@ -64,7 +64,7 @@ document.getElementById('back-btn').addEventListener('click', function()
 
 document.getElementById('log-out-btn').addEventListener('click', function()
 {
-   window.location.assign("http://127.0.0.1:5500/index.html")
+   window.location.assign("https://jsrafi.github.io/online-payment-system/")
 })
 
 
